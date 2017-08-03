@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script charset="utf-8">
+  var out = document.querySelector("#fizzbuzz")
+  var output = "";
+  var n = 1;
+  while(n <= 100) {
+    if(n % 3 === 0 && n % 5 === 0) {
+    console.log("FizzBuzz");
+    output += "<li>FizzBuzz</li>";
+  }
+    else if(n % 3 === 0) {
+    console.log("Fizz");
+    output += "<li>Fizz</li>";
+  }
+    else if (n % 5 === 0) {
+    console.log("Buzz");
+    output += "<li>Buzz</li>";
+  }
+    else {
+      console.log(n);
+      ouputHtml += "<li>" + n + "</li>";
+    }
+    n++;
+  }
+
+  </script>
+</body>
+</html>
