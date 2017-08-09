@@ -44,5 +44,17 @@ var findToys = function(dogs, toy) {
 console.log(findToys(puppyObject,"kong"));
 
 $.each( puppyObject , function( key, value ) {
-  $('body').append("<img src='"+value.picture+"' />"+ value.name);
+  $('body').append("<img src='"+value.picture+"' />"+'<p>'+value.name+'</p>');
 });
+
+var one = ['a','b','c'];
+
+var two = [1,2,3];
+
+var concatLists = function([a],[b]){
+  three = $('a.push[b]');
+};
+
+concatLists('one','two');
+
+console.log(three);
